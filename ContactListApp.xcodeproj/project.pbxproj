@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38474CD428DDD7A8007A28C6 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38474CD328DDD7A8007A28C6 /* DataManager.swift */; };
+		38474CD628DDD87E007A28C6 /* RowSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38474CD528DDD87E007A28C6 /* RowSectionView.swift */; };
+		38474CD828DDD963007A28C6 /* PhoneNumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38474CD728DDD963007A28C6 /* PhoneNumbersView.swift */; };
+		38474CDA28DDE1E0007A28C6 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38474CD928DDE1E0007A28C6 /* Person.swift */; };
+		38474CDC28DDE7CB007A28C6 /* AdditionalInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38474CDB28DDE7CB007A28C6 /* AdditionalInfoView.swift */; };
 		38C233F428DDC6FA0017DDA7 /* ContactListAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C233F328DDC6FA0017DDA7 /* ContactListAppApp.swift */; };
 		38C233F628DDC6FA0017DDA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C233F528DDC6FA0017DDA7 /* ContentView.swift */; };
 		38C233F828DDC6FC0017DDA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38C233F728DDC6FC0017DDA7 /* Assets.xcassets */; };
 		38C233FB28DDC6FC0017DDA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38C233FA28DDC6FC0017DDA7 /* Preview Assets.xcassets */; };
+		38C2340228DDC89A0017DDA7 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C2340128DDC89A0017DDA7 /* ContactView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38474CD328DDD7A8007A28C6 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		38474CD528DDD87E007A28C6 /* RowSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowSectionView.swift; sourceTree = "<group>"; };
+		38474CD728DDD963007A28C6 /* PhoneNumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumbersView.swift; sourceTree = "<group>"; };
+		38474CD928DDE1E0007A28C6 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		38474CDB28DDE7CB007A28C6 /* AdditionalInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalInfoView.swift; sourceTree = "<group>"; };
 		38C233F028DDC6FA0017DDA7 /* ContactListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38C233F328DDC6FA0017DDA7 /* ContactListAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListAppApp.swift; sourceTree = "<group>"; };
 		38C233F528DDC6FA0017DDA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		38C233F728DDC6FC0017DDA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38C233FA28DDC6FC0017DDA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		38C2340128DDC89A0017DDA7 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				38C233F328DDC6FA0017DDA7 /* ContactListAppApp.swift */,
 				38C233F528DDC6FA0017DDA7 /* ContentView.swift */,
+				38C2340128DDC89A0017DDA7 /* ContactView.swift */,
+				38474CD728DDD963007A28C6 /* PhoneNumbersView.swift */,
+				38474CD528DDD87E007A28C6 /* RowSectionView.swift */,
+				38474CD328DDD7A8007A28C6 /* DataManager.swift */,
+				38474CD928DDE1E0007A28C6 /* Person.swift */,
+				38474CDB28DDE7CB007A28C6 /* AdditionalInfoView.swift */,
 				38C233F728DDC6FC0017DDA7 /* Assets.xcassets */,
 				38C233F928DDC6FC0017DDA7 /* Preview Content */,
 			);
@@ -138,6 +156,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				38C233F628DDC6FA0017DDA7 /* ContentView.swift in Sources */,
+				38474CD428DDD7A8007A28C6 /* DataManager.swift in Sources */,
+				38474CD628DDD87E007A28C6 /* RowSectionView.swift in Sources */,
+				38474CDC28DDE7CB007A28C6 /* AdditionalInfoView.swift in Sources */,
+				38C2340228DDC89A0017DDA7 /* ContactView.swift in Sources */,
+				38474CDA28DDE1E0007A28C6 /* Person.swift in Sources */,
+				38474CD828DDD963007A28C6 /* PhoneNumbersView.swift in Sources */,
 				38C233F428DDC6FA0017DDA7 /* ContactListAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
